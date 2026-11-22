@@ -1,6 +1,6 @@
 # CareLoop Clinics — No-Show Guard
 
-**GitHub Repository:** [Add your public GitHub repository URL here]
+**GitHub Repository:** https://github.com/arumugapandian-m03/CareLoop-Clinics-No-Show-Guard
 
 ## Project Overview
 
