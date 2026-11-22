@@ -77,3 +77,31 @@ Predictions are intended to support clinic staff, not replace human judgement. G
 ## Detailed GenAI Report
 
 See [Part 4 README](Part_4_GenAI/README.md) for the detailed business recommendation and GenAI results.
+
+## 📊 Project Results & Evidence
+
+### Data Preparation
+- Original records: 1,020
+- Final cleaned records: 990
+- Overall no-show rate: 22.02%
+
+### SQL Analytics
+- Analysed no-show rates across 8 clinics.
+- Identified C08 as the highest no-show clinic (33.33%).
+- Found a strong association between longer booking lead times and higher no-show rates.
+
+### Machine Learning
+- Compared Logistic Regression, Decision Tree and Random Forest.
+- Applied GridSearchCV for Random Forest hyperparameter tuning.
+- Tuned Random Forest test performance:
+  - Accuracy: 69.70%
+  - Precision: 38.24%
+  - Recall: 59.09%
+  - F1 Score: 46.43%
+  - ROC-AUC: 70.75%
+
+### Generative AI
+- Processed 10 follow-up notes.
+- Obtained 9 valid structured analyses.
+- Skipped 1 blank note.
+- Used Gemini API and Pydantic validation.
