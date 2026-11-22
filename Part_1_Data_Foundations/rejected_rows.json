@@ -1,0 +1,122 @@
+[
+    {
+        "row_number": 100,
+        "reason": "time data 'not booked' does not match format '%Y-%m-%d'",
+        "original_data": {
+            "appointment_id": "A0094",
+            "patient_id": "P487",
+            "clinic_id": "C08",
+            "booked_on": "2025-02-24",
+            "appt_date": "not booked",
+            "age": "53",
+            "gender": "M",
+            "distance_km": "6.5",
+            "fee_inr": "850",
+            "booking_channel": "Phone",
+            "visit_type": "Consultation",
+            "reminder_sent": "No",
+            "prior_no_shows": "1",
+            "status": "No-Show"
+        }
+    },
+    {
+        "row_number": 169,
+        "reason": "day is out of range for month",
+        "original_data": {
+            "appointment_id": "A0162",
+            "patient_id": "P002",
+            "clinic_id": "C02",
+            "booked_on": "2025-06-26",
+            "appt_date": "2025-06-31",
+            "age": "39",
+            "gender": "M",
+            "distance_km": "9.0",
+            "fee_inr": "450",
+            "booking_channel": "Phone",
+            "visit_type": "Follow-up",
+            "reminder_sent": "Yes",
+            "prior_no_shows": "0",
+            "status": "Attended"
+        }
+    },
+    {
+        "row_number": 305,
+        "reason": "day is out of range for month",
+        "original_data": {
+            "appointment_id": "A0296",
+            "patient_id": "P497",
+            "clinic_id": "C08",
+            "booked_on": "2025-03-04",
+            "appt_date": "2025-04-31",
+            "age": "69",
+            "gender": "M",
+            "distance_km": "5.4",
+            "fee_inr": "600",
+            "booking_channel": "App",
+            "visit_type": "Consultation",
+            "reminder_sent": "Yes",
+            "prior_no_shows": "0",
+            "status": "Attended"
+        }
+    },
+    {
+        "row_number": 506,
+        "reason": "time data 'TBD' does not match format '%Y-%m-%d'",
+        "original_data": {
+            "appointment_id": "A0494",
+            "patient_id": "P401",
+            "clinic_id": "C03",
+            "booked_on": "2025-05-29",
+            "appt_date": "TBD",
+            "age": "34",
+            "gender": "F",
+            "distance_km": "8.1",
+            "fee_inr": "350",
+            "booking_channel": "App",
+            "visit_type": "Follow-up",
+            "reminder_sent": "No",
+            "prior_no_shows": "0",
+            "status": "Attended"
+        }
+    },
+    {
+        "row_number": 536,
+        "reason": "time data 'N/A' does not match format '%Y-%m-%d'",
+        "original_data": {
+            "appointment_id": "A0523",
+            "patient_id": "P402",
+            "clinic_id": "C02",
+            "booked_on": "2025-01-24",
+            "appt_date": "N/A",
+            "age": "26",
+            "gender": "F",
+            "distance_km": "4.7",
+            "fee_inr": "550",
+            "booking_channel": "App",
+            "visit_type": "Follow-up",
+            "reminder_sent": "Yes",
+            "prior_no_shows": "0",
+            "status": "Attended"
+        }
+    },
+    {
+        "row_number": 680,
+        "reason": "day is out of range for month",
+        "original_data": {
+            "appointment_id": "A0666",
+            "patient_id": "P018",
+            "clinic_id": "C03",
+            "booked_on": "2025-06-21",
+            "appt_date": "2025-02-30",
+            "age": "71",
+            "gender": "F",
+            "distance_km": "2.2",
+            "fee_inr": "450",
+            "booking_channel": "Phone",
+            "visit_type": "Follow-up",
+            "reminder_sent": "Yes",
+            "prior_no_shows": "0",
+            "status": "Attended"
+        }
+    }
+]

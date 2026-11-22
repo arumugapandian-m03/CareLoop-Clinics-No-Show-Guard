@@ -1,0 +1,5 @@
+appointment_id,patient_id,clinic_id,booked_on,appt_date,age,gender,distance_km,fee_inr,booking_channel,visit_type,reminder_sent,prior_no_shows,status
+A0194,P367,C01,2025-03-25,2025-04-10,39.0,F,3.5,700,Phone,Consultation,No,0,
+A0436,P228,C01,2025-03-05,2025-03-08,68.0,F,3.6,700,Walk-in,Consultation,Yes,1,
+A0551,P520,C04,2024-11-29,2025-01-02,54.0,F,16.1,650,App,Consultation,Yes,0,
+A0725,P376,C03,2025-05-27,2025-06-02,20.0,F,3.2,400,App,Follow-up,Yes,0,
